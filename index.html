@@ -58,6 +58,12 @@
   }
 </style>
   
+<!-- 빨간색 표시: 페이지 로딩 시 최상단으로 이동 -->
+<script>
+  window.addEventListener("load", function() {
+    window.scrollTo(0, 0); // 🔴 페이지가 로드될 때 무조건 최상단
+  });
+</script>
   
 <body>
 <nav>
